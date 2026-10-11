@@ -1,0 +1,19 @@
+{
+	"name": "pi-statusline",
+	"version": "0.0.0",
+	"description": "Header, winbar and statusline for pi's editor border",
+	"type": "module",
+	"keywords": ["pi-package", "pi-extension", "statusline"],
+	"license": "MIT",
+	"repository": "github:msetsma/pi-statusline",
+	"pi": {
+		"extensions": ["./src/index.ts"]
+	},
+	"scripts": {
+		"check": "node ../pi-my/node_modules/typescript/bin/tsc -p ."
+	},
+	"peerDependencies": {
+		"@earendil-works/pi-coding-agent": "*",
+		"@earendil-works/pi-tui": "*"
+	}
+}

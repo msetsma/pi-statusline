@@ -10,7 +10,7 @@ A header, winbar and statusline for [pi](https://github.com/earendil-works/pi), 
 
 Segments read live state on every render and repaint on model, thinking level, session name, message, branch and compaction changes. Only interactive (TUI) mode is affected.
 
-![Header, session-name winbar and statusline drawn on the pi editor border](demo/demo.gif)
+![pi editor border with the header, a winbar that switches to the session name, and a statusline whose thinking level and context usage update live](demo/demo.gif)
 
 ## Requires
 
